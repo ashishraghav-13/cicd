@@ -33,7 +33,7 @@ jobs:
         run: flake8 app tests --max-line-length=100 --extend-ignore=E203
 
       - name: Run tests with pytest
-        run: pytest --cov=app --cov-report=term-missing
+        run: pytest
 
   build-and-push:
     name: Build & Push Docker Image
