@@ -13,7 +13,7 @@ class Item(BaseModel):
 
 # in-memory "database" (just for demo purposes)
 items_db: List[Item] = [
-    Item(id=1, name="Laptop", price=56000.0),
+    Item(id=1, name="Laptop", price=57000.0),
     Item(id=2, name="Mouse", price=500.0),
 ]
 
