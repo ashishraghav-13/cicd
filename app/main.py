@@ -2,7 +2,8 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import List
 
-app = FastAPI(title="Sample FastAPI CI/CD App", version="1.0.0")
+# app = FastAPI(title="Sample FastAPI CI/CD App", version="1.0.0")
+app = FastAPI(title="Sample FastAPI CI/CD App", version="1.1.0")
 
 
 class Item(BaseModel):
